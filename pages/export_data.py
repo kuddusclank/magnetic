@@ -22,8 +22,6 @@ st.write("# 🌍 GeoGenix")
 st.write("## Station Metadata")
 st.write("Name: ",SurveyName)
 st.write("Longitude: ",Longitude,"    Lattitude: ",Lattitude,"Elevation :",Elevation)
-
-st.write(dataset)
 st.divider()
 
 st.write("## Export Data")
