@@ -45,7 +45,7 @@ if(st.button("Proceed",type='primary')):
     md.Elevation=Elevation
     md.dataset={"Datapoint":[],"Reading 1":[],"Reading 2":[],"Reading 3":[],"Reading 4":[], "Reading_Average":[],"Time":[],"Longitude":[],"Lattitude":[],"Elevation":[]}
     md.Station=0
-    md.profile=1
+    md.profile=0
     st.switch_page("pages/base.py")
 
     
