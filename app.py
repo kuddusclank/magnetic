@@ -23,7 +23,7 @@ st.markdown(
    Welcome to Geogenix, your go-to resource for geophysical exploration and insights. 
    Our mission is to bridge the gap between theory and practice, providing geoscientists, 
    researchers, and enthusiasts with valuable information and tools. 
-    ### Want to more tools?
+    ### Want  more tools?
     - Check out [GeoGenix HomePage](https://geogenix.000webhostapp.com/)
   
 """
@@ -33,8 +33,8 @@ def switching():
 
 st.subheader("Magnetic Survey↭")
 SurveyName = st.text_input("Traverse Name")
-Longitude = st.number_input(label= "Logitude ", placeholder="Degree Decimal",min_value=0.00)
-Lattitude=st.number_input("Lattitude", placeholder="Degree Decimal",min_value=0.00)
+Longitude = st.number_input(label= "Logitude ", placeholder="Degree Decimal",format ="%0.5f")
+Lattitude=st.number_input("Lattitude", placeholder="Degree Decimal",format ="%0.5f")
 Elevation=st.number_input("Elevation", placeholder="Metres",min_value=0.00)
 Interval_Spacing=st.number_input("Spacing Interval",min_value=1)
 if(st.button("Proceed",type='primary')):
