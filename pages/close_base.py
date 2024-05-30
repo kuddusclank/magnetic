@@ -36,7 +36,6 @@ elevation = st.number_input("Elevation",key='elevation')
 z1 = st.number_input("Reading 1",key='z1')
 z2 = st.number_input("Reading 2",key='z2')
 z3 = st.number_input("Reading 3",key='z3')
-z4 = st.number_input("Reading 4",key='z4')
 
 st.markdown("""
             <style>
@@ -52,7 +51,7 @@ st.markdown("""
 
 
 if (st.button("Proceed")):
-    basemap("Base Closing",z1,z2,z3,z4,Longitude,Lattitude,Elevation)
+    basemap("Base Closing",z1,z2,z3,Longitude,Lattitude,Elevation)
     st.switch_page("pages/export_data.py")
 
 
